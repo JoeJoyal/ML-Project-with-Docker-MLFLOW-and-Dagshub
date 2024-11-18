@@ -15,10 +15,19 @@ def get_requirements(file_path:str)->List[str]:
     return requirements"""
 
 setup(
-    name='DimondPricePrediction',
+    name='envs',
     version='0.0.1',
     author='JoeJoyal',
     author_email='joewilsonthamiyan@gmail.com',
     install_requires=["scikit-learn","pandas","numpy"],
     packages=find_packages()
 )
+
+# setup(
+#     name='DimondPricePrediction',
+#     version='0.0.1',
+#     author='JoeJoyal',
+#     author_email='joewilsonthamiyan@gmail.com',
+#     install_requires=["scikit-learn","pandas","numpy"],
+#     packages=find_packages()
+# )
