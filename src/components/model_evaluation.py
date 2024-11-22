@@ -9,8 +9,8 @@ from urllib.parse import urlparse
 from pathlib import Path
 from dataclasses import dataclass
 
-from src.logger.logging import logging
-from src.exception.exception import customexception
+from src.logger import logging
+from src.exception import customexception
 from src.utils.utils import save_object
 
 from sklearn.model_selection import train_test_split

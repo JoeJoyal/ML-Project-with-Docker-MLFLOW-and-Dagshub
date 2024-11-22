@@ -6,7 +6,7 @@ from pathlib import Path
 from dataclasses import dataclass
 
 from src.logger import logging
-from src.exception.exception import customexception
+from src.exception import customexception
 
 
 from sklearn.model_selection import train_test_split
